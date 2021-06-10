@@ -1,0 +1,6 @@
+/Users/ozzieharb/Projects/ProgrammingConcepts1/ProgrammingConcepts1/bin/Debug/ProgrammingConcepts1.exe
+/Users/ozzieharb/Projects/ProgrammingConcepts1/ProgrammingConcepts1/bin/Debug/ProgrammingConcepts1.pdb
+/Users/ozzieharb/Projects/ProgrammingConcepts1/ProgrammingConcepts1/obj/Debug/ProgrammingConcepts1.csproj.AssemblyReference.cache
+/Users/ozzieharb/Projects/ProgrammingConcepts1/ProgrammingConcepts1/obj/Debug/ProgrammingConcepts1.csproj.CoreCompileInputs.cache
+/Users/ozzieharb/Projects/ProgrammingConcepts1/ProgrammingConcepts1/obj/Debug/ProgrammingConcepts1.exe
+/Users/ozzieharb/Projects/ProgrammingConcepts1/ProgrammingConcepts1/obj/Debug/ProgrammingConcepts1.pdb
