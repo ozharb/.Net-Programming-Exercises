@@ -7,26 +7,28 @@ namespace ProgrammingConcepts1
     {
         public static void Main(string[] args)
         {
-            //  1 - Write a program and ask the user to enter a number.
-            //  The number should be between 1 to 10.
-            //  If the user enters a valid number, display "Valid" on the console.
+    //      1 - Write a program and ask the user to enter a number.
+    //      The number should be between 1 to 10.
+    //      If the user enters a valid number, display "Valid" on the console.
 
-             void Excercise1()
+            void Excercise1()
             {
                 Console.WriteLine("Please enter a number");
                 var userNumber = Convert.ToInt32(Console.ReadLine());
-                if(userNumber<1 || userNumber > 10)
+                if (userNumber < 1 || userNumber > 10)
                 {
                     Console.WriteLine("Not valid");
-                }else
+                }
+                else
                 {
                     Console.WriteLine("Valid");
                 }
 
             }
-            //  2- Write a program which takes three numbers
-            //  from the console and displays the maximum of the three.
-              void Exerciese2()
+    //      2 -  Write a program which takes three numbers
+    //      from the console and displays the maximum of the three.
+
+            void Exerciese2()
             {
                 var userNumbers = new int[3];
 
@@ -42,9 +44,9 @@ namespace ProgrammingConcepts1
 
                 userNumbers[2] = Convert.ToInt32(Console.ReadLine());
                 var max = userNumbers[0];
-                foreach(var num in userNumbers)
+                foreach (var num in userNumbers)
                 {
-                    if(num > max)
+                    if (num > max)
                     {
                         max = num;
                     }
@@ -52,12 +54,13 @@ namespace ProgrammingConcepts1
                 Console.WriteLine($"The highest number of the three is {max}.\nThanks for participating!");
 
             }
+    //      3 -  Write a program to count how many numbers between 1 and 100 are divisible by 3 with no remainder.
+    //      Display the count on the console.
+
             int Excercise3()
             {
-                // Write a program to count how many numbers between 1 and 100 are divisible by 3 with no reaminder.
-                // Display the count on the console.
                 var count = 0;
-                for(var i = 1; i <= 100; i++)
+                for (var i = 1; i <= 100; i++)
                 {
                     if (i % 3 == 0)
                     {
@@ -66,28 +69,30 @@ namespace ProgrammingConcepts1
                 }
                 return count;
             }
+    //      4 - Write a program and ask user to enter a number.
+    //      Compute the factorial of the number and print it on the console.
+
             void Exercise4()
             {
-                // 4 - Write a program and ask user to enter a number.
-                // Compute the factorial of the number and print it on the console.
 
                 Console.WriteLine("Welcome to Factorializer...");
                 Console.WriteLine("Please enter a number");
                 var userNumber = Convert.ToInt32(Console.ReadLine());
                 var result = userNumber;
-                for(var i = userNumber-1; i>0; i--)
+                for (var i = userNumber - 1; i > 0; i--)
                 {
                     Console.WriteLine(i);
-                    
-                    result *= i;  
+
+                    result *= i;
                 }
                 Console.WriteLine($"{userNumber}! is {result}");
             }
+     //     5 - Write a program to display the pattern like a right angle triangle using asterisks.
 
             void Exercise5()
             {
                 string asterisk = "*";
-                    for(var i = 1; i<=5; i++)
+                for (var i = 1; i <= 5; i++)
                 {
                     if (i == 1)
                     {
@@ -99,8 +104,6 @@ namespace ProgrammingConcepts1
 
             }
 
-            Exercise5();
-             
         }
     }
 }
